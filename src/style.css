@@ -17,7 +17,7 @@ header {
 
 .title-row {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 14px;
   flex-wrap: wrap;
 }
@@ -32,12 +32,12 @@ header h1 span {
   color: #5e20a4;
 }
 
-header p {
-  margin: 6px 0 0;
-  font-size: 14px;
-  color: #555;
+.progress-nav {
+  display: grid;
+  gap: 4px;
 }
 
+.stage-carousel,
 .level-carousel {
   display: flex;
   align-items: center;
@@ -45,8 +45,16 @@ header p {
   flex-wrap: wrap;
 }
 
+header p {
+  margin: 6px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.stage-button,
 .level-button {
   min-width: 22px;
+  width: 22px;
   height: 22px;
   border-radius: 50%;
   border: 1px solid #d7d7d7;
@@ -58,6 +66,16 @@ header p {
   cursor: pointer;
 }
 
+.stage-button {
+  color: #7b61ff;
+  font-size: 14px;
+}
+
+.stage-button:disabled {
+  cursor: not-allowed;
+}
+
+.stage-button.active,
 .level-button.active {
   width: 42px;
   height: 42px;
@@ -67,18 +85,21 @@ header p {
   border-color: #d0d0d0;
 }
 
+.stage-button.success,
 .level-button.success {
   background: #43a047;
   color: white;
   border-color: #2e7d32;
 }
 
+.stage-button.error,
 .level-button.error {
   background: #d32f2f;
   color: white;
   border-color: #b71c1c;
 }
 
+.stage-button.warning,
 .level-button.warning {
   background: #fbc02d;
   color: #222;

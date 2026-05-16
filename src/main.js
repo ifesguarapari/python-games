@@ -16,7 +16,7 @@ const STORE_NAME = "stage-progress";
 
 const LEVELS = [
   {
-    "title": "Aprenda 1: comandos em sequência",
+    "title": "Aprenda: comandos em sequência",
     "lineGoal": 99,
     "start": {
       "x": 1,
@@ -52,7 +52,7 @@ const LEVELS = [
     }
   },
   {
-    "title": "Desafio 2: comandos em sequência",
+    "title": "Desafio: comandos em sequência",
     "lineGoal": 3,
     "start": {
       "x": 2,
@@ -81,12 +81,12 @@ const LEVELS = [
         3
       ]
     ],
-    "starterCode": "# Desafio 2\n# Leve o personagem até o objetivo usando sequência.\n# Use andar() três vezes.\n\n",
+    "starterCode": "# Desafio\n# Leve o personagem até o objetivo usando sequência.\n# Use andar() três vezes.\n\n",
     "isTutorial": false,
     "concept": null
   },
   {
-    "title": "Aprenda 3: virando no caminho",
+    "title": "Aprenda: virando no caminho",
     "lineGoal": 99,
     "start": {
       "x": 1,
@@ -122,7 +122,7 @@ const LEVELS = [
     }
   },
   {
-    "title": "Desafio 4: vire uma vez",
+    "title": "Desafio: vire uma vez",
     "lineGoal": 5,
     "start": {
       "x": 1,
@@ -155,12 +155,12 @@ const LEVELS = [
         2
       ]
     ],
-    "starterCode": "# Desafio 4\n# Use andar() e virar_esquerda().\n\n",
+    "starterCode": "# Desafio\n# Use andar() e virar_esquerda().\n\n",
     "isTutorial": false,
     "concept": null
   },
   {
-    "title": "Aprenda 5: repetindo com while",
+    "title": "Aprenda: repetindo com while",
     "lineGoal": 99,
     "start": {
       "x": 1,
@@ -200,7 +200,7 @@ const LEVELS = [
     }
   },
   {
-    "title": "Desafio 6: repetição",
+    "title": "Desafio: repetição",
     "lineGoal": 4,
     "start": {
       "x": 1,
@@ -233,12 +233,12 @@ const LEVELS = [
         3
       ]
     ],
-    "starterCode": "# Desafio 6\n# Tente usar while para andar até o final.\n\n",
+    "starterCode": "# Desafio\n# Tente usar while para andar até o final.\n\n",
     "isTutorial": false,
     "concept": null
   },
   {
-    "title": "Aprenda 7: controles alinhados",
+    "title": "Aprenda: controles alinhados",
     "lineGoal": 4,
     "start": {
       "x": 1,
@@ -278,7 +278,7 @@ const LEVELS = [
     }
   },
   {
-    "title": "Desafio 8: zigue-zague",
+    "title": "Desafio: zigue-zague",
     "lineGoal": 7,
     "start": {
       "x": 1,
@@ -319,12 +319,12 @@ const LEVELS = [
         2
       ]
     ],
-    "starterCode": "# Desafio 8\n# Resolva o caminho em escada.\n\n",
+    "starterCode": "# Desafio\n# Resolva o caminho em escada.\n\n",
     "isTutorial": false,
     "concept": null
   },
   {
-    "title": "Aprenda 9: planejando por partes",
+    "title": "Aprenda: planejando por partes",
     "lineGoal": 99,
     "start": {
       "x": 1,
@@ -368,7 +368,7 @@ const LEVELS = [
     }
   },
   {
-    "title": "Desafio 10: caminho em L",
+    "title": "Desafio: caminho em L",
     "lineGoal": 7,
     "start": {
       "x": 2,
@@ -409,12 +409,12 @@ const LEVELS = [
         1
       ]
     ],
-    "starterCode": "# Desafio 10\n# Combine sequência e virada.\n\n",
+    "starterCode": "# Desafio\n# Combine sequência e virada.\n\n",
     "isTutorial": false,
     "concept": null
   },
   {
-    "title": "Aprenda 11: contornando obstáculos",
+    "title": "Aprenda: contornando obstáculos",
     "lineGoal": 99,
     "start": {
       "x": 1,
@@ -462,7 +462,7 @@ const LEVELS = [
     }
   },
   {
-    "title": "Desafio 12: contorno",
+    "title": "Desafio: contorno",
     "lineGoal": 12,
     "start": {
       "x": 1,
@@ -523,12 +523,12 @@ const LEVELS = [
         3
       ]
     ],
-    "starterCode": "# Desafio 12\n# Contorne o caminho.\n\n",
+    "starterCode": "# Desafio\n# Contorne o caminho.\n\n",
     "isTutorial": false,
     "concept": null
   },
   {
-    "title": "Aprenda 13: escolhendo com if",
+    "title": "Aprenda: escolhendo com if",
     "lineGoal": 99,
     "start": {
       "x": 1,
@@ -564,7 +564,7 @@ const LEVELS = [
     }
   },
   {
-    "title": "Desafio 14: decisões",
+    "title": "Desafio: decisões",
     "lineGoal": 12,
     "start": {
       "x": 1,
@@ -645,12 +645,12 @@ const LEVELS = [
         4
       ]
     ],
-    "starterCode": "# Desafio 14\n# Teste caminhos com if.\n\n",
+    "starterCode": "# Desafio\n# Teste caminhos com if.\n\n",
     "isTutorial": false,
     "concept": null
   },
   {
-    "title": "Aprenda 15: melhorando a solução",
+    "title": "Aprenda: melhorando a solução",
     "lineGoal": 99,
     "start": {
       "x": 1,
@@ -686,7 +686,7 @@ const LEVELS = [
     }
   },
   {
-    "title": "Desafio 16: menos linhas",
+    "title": "Desafio: menos linhas",
     "lineGoal": 9,
     "start": {
       "x": 1,
@@ -755,12 +755,12 @@ const LEVELS = [
         5
       ]
     ],
-    "starterCode": "# Desafio 16\n# Resolva usando poucas linhas.\n\n",
+    "starterCode": "# Desafio\n# Resolva usando poucas linhas.\n\n",
     "isTutorial": false,
     "concept": null
   },
   {
-    "title": "Aprenda 17: controles alinhados",
+    "title": "Aprenda: controles alinhados",
     "lineGoal": 20,
     "start": {
       "x": 1,
@@ -824,7 +824,7 @@ const LEVELS = [
     }
   },
   {
-    "title": "Desafio 18: ramificações",
+    "title": "Desafio: ramificações",
     "lineGoal": 10,
     "start": {
       "x": 5,
@@ -925,12 +925,12 @@ const LEVELS = [
         3
       ]
     ],
-    "starterCode": "# Desafio 18\n# Cuidado com ramificações.\n\n",
+    "starterCode": "# Desafio\n# Cuidado com ramificações.\n\n",
     "isTutorial": false,
     "concept": null
   },
   {
-    "title": "Aprenda 19: juntando estratégias",
+    "title": "Aprenda: juntando estratégias",
     "lineGoal": 18,
     "start": {
       "x": 1,
@@ -1010,7 +1010,7 @@ const LEVELS = [
     }
   },
   {
-    "title": "Desafio 20: desafio final",
+    "title": "Desafio: desafio final",
     "lineGoal": 14,
     "grid": 8,
     "start": {
@@ -1179,6 +1179,523 @@ const LEVELS = [
     "starterCode": "# Você consegue resolver este labirinto complicado? Tente seguir a parede da mão esquerda.\n\n",
     "isTutorial": false,
     "concept": null
+  },
+  {
+    "title": "Aprenda: funções com parâmetros",
+    "lineGoal": 13,
+    "mode": "stars",
+    "start": {
+      "x": 0,
+      "y": 5,
+      "dir": 0
+    },
+    "goal": {
+      "x": 5,
+      "y": 1
+    },
+    "stars": [
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "path": [],
+    "starterCode": "# Exemplo resolvido.\n# Funções guardam pequenos planos para usar várias vezes.\n# O parâmetro passos muda quantas casas o personagem anda.\n# A função dobro() faz um cálculo e devolve um resultado.\n\ndef avancar(passos):\n    while passos > 0:\n        andar()\n        passos = passos - 1\n\ndef dobro(numero):\n    return numero * 2\n\navancar(dobro(1))\nvirar(270)\navancar(2)\nvirar(90)\navancar(3)\nvirar(270)\navancar(2)",
+    "isTutorial": true,
+    "concept": {
+      "title": "Funções ajudam a organizar o plano",
+      "objective": "Você vai chamar funções, passar parâmetros e usar um retorno em um cálculo simples.",
+      "programming": "Uma função é um bloco de código com nome. Um parâmetro é uma informação enviada para a função.",
+      "python": "Use def para criar uma função. Use return quando a função precisar devolver um valor.",
+      "thinking": "Crie pequenas ações reutilizáveis: avançar alguns passos, virar e calcular quantidades."
+    }
+  },
+  {
+    "title": "Desafio: colete as estrelas",
+    "lineGoal": 16,
+    "mode": "stars",
+    "start": {
+      "x": 1,
+      "y": 6,
+      "dir": 3
+    },
+    "goal": {
+      "x": 6,
+      "y": 1
+    },
+    "stars": [
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "path": [],
+    "starterCode": "# Desafio\n# Pegue todas as estrelas azuis antes de chegar ao destino.\n# Tente criar suas próprias funções com parâmetros e retorno.\n\n",
+    "isTutorial": false,
+    "concept": null
+  },
+  {
+    "title": "Aprenda: posição x e y",
+    "lineGoal": 14,
+    "mode": "stars",
+    "grid": 6,
+    "coordinateStep": 20,
+    "showCoordinates": true,
+    "start": {
+      "x": 0,
+      "y": 4,
+      "dir": 0
+    },
+    "goal": {
+      "x": 1,
+      "y": 0
+    },
+    "stars": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "walls": [
+      {
+        "orientation": "horizontal",
+        "y": 3,
+        "x1": 0,
+        "x2": 3
+      }
+    ],
+    "path": [],
+    "starterCode": "# Exemplo resolvido.\n# Agora o mapa mostra x e y de 0 a 100.\n# A parede cinza bloqueia o caminho direto.\n# x aumenta para a direita; y aumenta para cima.\n\ndef ir_ate_x(limite):\n    while x < limite:\n        andar()\n\ndef ir_ate_y(limite):\n    virar(270)\n    while y < limite:\n        andar()\n\nif x < 80:\n    ir_ate_x(80)\n\nir_ate_y(80)\nandar()\nvirar(270)\nwhile x > 20:\n    andar()",
+    "isTutorial": true,
+    "concept": {
+      "title": "Use x e y para decidir",
+      "objective": "Você vai usar as coordenadas do mapa dentro de if e while.",
+      "programming": "O programa pode olhar a posição atual antes de decidir se continua andando.",
+      "python": "Use comparações como x < 80, y < 100 e y > 20 para controlar repetições.",
+      "thinking": "Leia o mapa como um plano: vá até um x seguro, suba pelo espaço livre e só depois vá ao destino."
+    }
+  },
+  {
+    "title": "Desafio: desvie da parede",
+    "lineGoal": 18,
+    "mode": "stars",
+    "grid": 6,
+    "coordinateStep": 20,
+    "showCoordinates": true,
+    "start": {
+      "x": 0,
+      "y": 5,
+      "dir": 0
+    },
+    "goal": {
+      "x": 5,
+      "y": 0
+    },
+    "stars": [
+      [
+        1,
+        5
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "walls": [
+      {
+        "orientation": "vertical",
+        "x": 3,
+        "y1": 1,
+        "y2": 4
+      }
+    ],
+    "path": [],
+    "starterCode": "# Desafio\n# Pegue todas as estrelas antes de chegar ao destino.\n# Use x, y, if, while e suas próprias funções para desviar da parede.\n\n",
+    "isTutorial": false,
+    "concept": null
+  },
+  {
+    "title": "Aprenda: contador de estrelas",
+    "lineGoal": 20,
+    "mode": "stars",
+    "grid": 6,
+    "coordinateStep": 20,
+    "showCoordinates": true,
+    "start": {
+      "x": 0,
+      "y": 5,
+      "dir": 0
+    },
+    "goal": {
+      "x": 5,
+      "y": 0
+    },
+    "stars": [
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "walls": [
+      {
+        "orientation": "horizontal",
+        "y": 4,
+        "x1": 3,
+        "x2": 5
+      }
+    ],
+    "path": [],
+    "starterCode": "# Exemplo resolvido.\n# estrelas guarda quantas estrelas azuis já foram pegas.\n# Uma função pode chamar outra função criada antes.\n# Variáveis locais, como faltam e distancia, ajudam nos cálculos.\n\ndef avancar(passos):\n    faltam = passos\n    while faltam > 0:\n        andar()\n        faltam = faltam - 1\n\ndef passos_ate_x(alvo):\n    distancia = alvo - x\n    passos = distancia // 20\n    return passos\n\ndef pegar_estrela(passos):\n    avancar(passos)\n\nwhile estrelas < 1:\n    andar()\n\nvirar(270)\npegar_estrela(3)\nvirar(90)\nif estrelas < 3:\n    avancar(passos_ate_x(100))\nvirar(270)\navancar(2)",
+    "isTutorial": true,
+    "concept": {
+      "title": "O contador também é uma variável",
+      "objective": "Você vai usar estrelas para decidir quando continuar andando e quando mudar de estratégia.",
+      "programming": "O valor de estrelas muda durante o jogo. O programa pode ler esse valor dentro de while e if.",
+      "python": "Funções podem chamar outras funções. Dentro delas, variáveis locais como faltam, distancia e passos ajudam a organizar pequenos cálculos.",
+      "thinking": "Use o contador para saber qual parte do plano já foi concluída: pegou uma estrela, vire; pegou outra, avance até o próximo alvo."
+    }
+  },
+  {
+    "title": "Desafio: funções com variáveis locais",
+    "lineGoal": 18,
+    "mode": "stars",
+    "grid": 6,
+    "coordinateStep": 20,
+    "showCoordinates": true,
+    "start": {
+      "x": 0,
+      "y": 4,
+      "dir": 0
+    },
+    "goal": {
+      "x": 5,
+      "y": 0
+    },
+    "stars": [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "walls": [
+      {
+        "orientation": "vertical",
+        "x": 3,
+        "y1": 2,
+        "y2": 5
+      }
+    ],
+    "path": [],
+    "starterCode": "# Desafio\n# Use estrelas como contador para saber quantas já foram pegas.\n# Crie uma função que chame outra função criada antes.\n# Use variáveis locais auxiliares dentro das funções.\n\n",
+    "isTutorial": false,
+    "concept": null
+  },
+  {
+    "title": "Aprenda: ângulos calculados",
+    "lineGoal": 26,
+    "mode": "stars",
+    "grid": 6,
+    "coordinateStep": 20,
+    "showCoordinates": true,
+    "start": {
+      "x": 0,
+      "y": 4,
+      "dir": 0
+    },
+    "goal": {
+      "x": 5,
+      "y": 0
+    },
+    "stars": [
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "purpleStars": [
+      [
+        2,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "walls": [
+      {
+        "orientation": "vertical",
+        "x": 3,
+        "y1": 3,
+        "y2": 5
+      }
+    ],
+    "path": [],
+    "starterCode": "# Exemplo resolvido.\n# Estrela azul soma 1 ponto; estrela roxa tira 1 ponto.\n# O ângulo de virar pode ser calculado olhando mapa, muro e estrelas.\n\ndef avancar(passos):\n    repeticoes = passos\n    while repeticoes > 0:\n        andar()\n        repeticoes = repeticoes - 1\n\ndef calcular_angulo():\n    muro = not caminho_livre()\n    if muro and estrelas == 1:\n        return 270\n    if estrelas == 2 and y == 60:\n        return 90\n    return 270\n\ndef virar_pelo_mapa():\n    angulo = calcular_angulo()\n    virar(angulo)\n\nwhile estrelas < 1:\n    andar()\nvirar_pelo_mapa()\nwhile estrelas < 2:\n    andar()\nvirar_pelo_mapa()\nwhile estrelas < 3:\n    andar()\nvirar_pelo_mapa()\navancar(2)",
+    "isTutorial": true,
+    "concept": {
+      "title": "Calcule a curva antes de virar",
+      "objective": "Você vai criar uma função que calcula o ângulo usando o mapa, uma parede e o contador de estrelas.",
+      "programming": "O programa pode guardar uma decisão em uma variável local antes de chamar virar().",
+      "python": "Use return para devolver 90 ou 270. Depois, outra função pode chamar esse cálculo e passar o resultado para virar(angulo).",
+      "thinking": "Evite estrelas roxas: elas reduzem a pontuação e mostram que o caminho escolhido passou pelo lugar errado."
+    }
+  },
+  {
+    "title": "Desafio: evite estrelas roxas",
+    "lineGoal": 24,
+    "mode": "stars",
+    "grid": 6,
+    "coordinateStep": 20,
+    "showCoordinates": true,
+    "start": {
+      "x": 0,
+      "y": 5,
+      "dir": 0
+    },
+    "goal": {
+      "x": 5,
+      "y": 5
+    },
+    "stars": [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "purpleStars": [
+      [
+        0,
+        3
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        3,
+        5
+      ]
+    ],
+    "walls": [
+      {
+        "orientation": "vertical",
+        "x": 2,
+        "y1": 3,
+        "y2": 5
+      }
+    ],
+    "path": [],
+    "starterCode": "# Desafio\n# Estrelas roxas tiram pontos do contador de estrelas.\n# Crie uma função que calcule o ângulo usando mapa, muro e estrelas.\n# Use outra função para chamar esse cálculo e virar.\n\n",
+    "isTutorial": false,
+    "concept": null
+  },
+  {
+    "title": "Aprenda: função recursiva",
+    "lineGoal": 24,
+    "mode": "stars",
+    "grid": 6,
+    "coordinateStep": 20,
+    "showCoordinates": true,
+    "start": {
+      "x": 0,
+      "y": 5,
+      "dir": 0
+    },
+    "goal": {
+      "x": 5,
+      "y": 0
+    },
+    "stars": [
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "purpleStars": [
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "walls": [
+      {
+        "orientation": "vertical",
+        "x": 3,
+        "y1": 4,
+        "y2": 5
+      }
+    ],
+    "path": [],
+    "starterCode": "# Exemplo resolvido.\n# Recursão acontece quando uma função chama ela mesma.\n# Toda recursão precisa de uma condição de parada.\n\ndef avancar(passos):\n    if passos == 0:\n        return\n    andar()\n    avancar(passos - 1)\n\ndef procurar_estrela(alvo):\n    if estrelas >= alvo:\n        return\n    andar()\n    procurar_estrela(alvo)\n\ndef virar_pelo_contador():\n    if not caminho_livre():\n        virar(270)\n    elif estrelas == 2:\n        virar(90)\n    else:\n        virar(270)\n\nprocurar_estrela(1)\nvirar_pelo_contador()\nprocurar_estrela(2)\nvirar_pelo_contador()\nprocurar_estrela(3)\nvirar_pelo_contador()\navancar(3)",
+    "isTutorial": true,
+    "concept": {
+      "title": "Uma função pode chamar a si mesma",
+      "objective": "Você vai usar recursão para repetir movimentos até uma condição de parada.",
+      "programming": "Recursão resolve uma tarefa repetida chamando a mesma função novamente, cada vez mais perto do fim.",
+      "python": "Use um caso base com if e return antes da chamada recursiva. Sem isso, a função nunca para.",
+      "thinking": "Pense assim: se já alcancei o alvo, paro; se não alcancei, dou um passo e tento de novo."
+    }
+  },
+  {
+    "title": "Desafio: recursão com estrelas",
+    "lineGoal": 22,
+    "mode": "stars",
+    "grid": 6,
+    "coordinateStep": 20,
+    "showCoordinates": true,
+    "start": {
+      "x": 0,
+      "y": 5,
+      "dir": 0
+    },
+    "goal": {
+      "x": 5,
+      "y": 1
+    },
+    "stars": [
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "purpleStars": [
+      [
+        0,
+        3
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "walls": [
+      {
+        "orientation": "vertical",
+        "x": 2,
+        "y1": 3,
+        "y2": 5
+      }
+    ],
+    "path": [],
+    "starterCode": "# Desafio\n# Resolva usando pelo menos uma função recursiva.\n# Uma função recursiva chama ela mesma até chegar ao caso base.\n# Evite as estrelas roxas; elas tiram ponto do contador.\n\n",
+    "isTutorial": false,
+    "concept": null
+  }
+];
+
+const STAGES = [
+  {
+    "label": "A",
+    "levelIndexes": Array.from({ length: 20 }, (_, index) => index)
+  },
+  {
+    "label": "B",
+    "levelIndexes": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
   }
 ];
 
@@ -1194,6 +1711,7 @@ const prevButton = document.getElementById("prevButton");
 const nextButton = document.getElementById("nextButton");
 const levelTitle = document.getElementById("levelTitle");
 const lineGoal = document.getElementById("lineGoal");
+const stageCarousel = document.getElementById("stageCarousel");
 const levelCarousel = document.getElementById("levelCarousel");
 const errorModal = document.getElementById("errorModal");
 const errorModalMessage = document.getElementById("errorModalMessage");
@@ -1207,8 +1725,11 @@ let editor = null;
 let pyodide = null;
 let db = null;
 let currentLevelIndex = 0;
+let selectedStageIndex = 0;
 let progress = {};
 let player = { x: 0, y: 0, dir: 0 };
+let collectedStars = new Set();
+let collectedPurpleStars = new Set();
 let actions = [];
 let debugActions = [];
 let debugIndex = 0;
@@ -1232,6 +1753,152 @@ function currentGrid() {
 
 function tileSize() {
   return CANVAS_SIZE / currentGrid();
+}
+
+function isStarLevel() {
+  return currentLevel().mode === "stars";
+}
+
+function levelStars() {
+  return currentLevel().stars || [];
+}
+
+function levelPurpleStars() {
+  return currentLevel().purpleStars || [];
+}
+
+function levelWalls() {
+  return currentLevel().walls || [];
+}
+
+function starScore() {
+  return collectedStars.size - collectedPurpleStars.size;
+}
+
+function coordinateStep() {
+  return currentLevel().coordinateStep || 20;
+}
+
+function playerCoordinates() {
+  const grid = currentGrid();
+
+  return {
+    x: player.x * coordinateStep(),
+    y: (grid - 1 - player.y) * coordinateStep(),
+  };
+}
+
+function updatePythonPositionGlobals() {
+  if (!pyodide) return;
+
+  const position = playerCoordinates();
+  pyodide.globals.set("x", position.x);
+  pyodide.globals.set("y", position.y);
+  pyodide.globals.set("estrelas", starScore());
+  pyodide.globals.set("estrelas_azuis", collectedStars.size);
+  pyodide.globals.set("estrelas_roxas", collectedPurpleStars.size);
+  pyodide.globals.set("total_estrelas", levelStars().length);
+}
+
+function starKey(x, y) {
+  return `${x},${y}`;
+}
+
+function collectStarAtPlayer() {
+  if (!isStarLevel()) return;
+
+  const key = starKey(player.x, player.y);
+  if (levelStars().some(([x, y]) => starKey(x, y) === key)) {
+    collectedStars.add(key);
+  }
+  if (levelPurpleStars().some(([x, y]) => starKey(x, y) === key)) {
+    collectedPurpleStars.add(key);
+  }
+
+  updatePythonPositionGlobals();
+}
+
+function allStarsCollected() {
+  return levelStars().every(([x, y]) => collectedStars.has(starKey(x, y)));
+}
+
+function hasFullStarScore() {
+  return starScore() >= levelStars().length;
+}
+
+function normalizeAngle(angle) {
+  return ((angle % 360) + 360) % 360;
+}
+
+function stageForLevel(index = currentLevelIndex) {
+  const stageIndex = STAGES.findIndex((stage) => stage.levelIndexes.includes(index));
+  return stageIndex >= 0 ? stageIndex : 0;
+}
+
+function currentStage() {
+  return STAGES[selectedStageIndex];
+}
+
+function currentLevelPosition() {
+  const stageIndex = selectedStageIndex;
+  const stage = STAGES[stageIndex];
+
+  return {
+    stageIndex,
+    levelPosition: stage.levelIndexes.indexOf(currentLevelIndex),
+  };
+}
+
+function nextNavigationTarget() {
+  const { stageIndex, levelPosition } = currentLevelPosition();
+  const stage = STAGES[stageIndex];
+
+  if (levelPosition >= 0 && levelPosition < stage.levelIndexes.length - 1) {
+    return { type: "level", index: stage.levelIndexes[levelPosition + 1] };
+  }
+
+  for (let nextStageIndex = stageIndex + 1; nextStageIndex < STAGES.length; nextStageIndex += 1) {
+    const nextStage = STAGES[nextStageIndex];
+    if (nextStage.levelIndexes.length > 0) {
+      return { type: "level", index: nextStage.levelIndexes[0] };
+    }
+
+    return { type: "stage", index: nextStageIndex };
+  }
+
+  return null;
+}
+
+function previousNavigationTarget() {
+  const { stageIndex, levelPosition } = currentLevelPosition();
+  const stage = STAGES[stageIndex];
+
+  if (levelPosition > 0) {
+    return { type: "level", index: stage.levelIndexes[levelPosition - 1] };
+  }
+
+  for (let previousStageIndex = stageIndex - 1; previousStageIndex >= 0; previousStageIndex -= 1) {
+    const previousStage = STAGES[previousStageIndex];
+    if (previousStage.levelIndexes.length > 0) {
+      return { type: "level", index: previousStage.levelIndexes[previousStage.levelIndexes.length - 1] };
+    }
+
+    return { type: "stage", index: previousStageIndex };
+  }
+
+  return null;
+}
+
+function navigateToTarget(target) {
+  if (!target) return;
+
+  if (target.type === "level") {
+    loadLevel(target.index);
+  }
+
+  if (target.type === "stage") {
+    loadStage(target.index);
+  }
 }
 
 function levelKey(index = currentLevelIndex) {
@@ -1295,6 +1962,7 @@ function dbDelete(key) {
 async function loadProgress() {
   progress = (await dbGet("progress")) || {};
   currentLevelIndex = (await dbGet("currentLevelIndex")) || 0;
+  selectedStageIndex = stageForLevel(currentLevelIndex);
 }
 
 async function saveProgress() {
@@ -1304,11 +1972,14 @@ async function saveProgress() {
 
 function resetPlayerToLevel() {
   const start = currentLevel().start;
-  player = { x: start.x, y: start.y, dir: start.dir };
+  player = { x: start.x, y: start.y, dir: start.dir, angle: start.dir * 90 };
+  collectedStars = new Set();
+  collectedPurpleStars = new Set();
+  collectStarAtPlayer();
 }
 
 function pathSetForLevel() {
-  return new Set(currentLevel().path.map(([x, y]) => `${x},${y}`));
+  return new Set((currentLevel().path || []).map(([x, y]) => `${x},${y}`));
 }
 
 function isRoad(x, y) {
@@ -1320,26 +1991,45 @@ function isGoal() {
   return player.x === goal.x && player.y === goal.y;
 }
 
+function isGoalBlockedByStars(x, y) {
+  const goal = currentLevel().goal;
+  return isStarLevel() && x === goal.x && y === goal.y && !allStarsCollected();
+}
+
+function wallBlocksMove(nextX, nextY) {
+  return levelWalls().some((wall) => {
+    if (wall.orientation === "horizontal") {
+      const crossesWall = (player.y < wall.y && nextY >= wall.y) || (player.y >= wall.y && nextY < wall.y);
+      const column = Math.min(player.x, nextX);
+      return crossesWall && column >= wall.x1 && column <= wall.x2;
+    }
+
+    if (wall.orientation === "vertical") {
+      const crossesWall = (player.x < wall.x && nextX >= wall.x) || (player.x >= wall.x && nextX < wall.x);
+      const row = Math.min(player.y, nextY);
+      return crossesWall && row >= wall.y1 && row <= wall.y2;
+    }
+
+    return false;
+  });
+}
+
 function isBlocked(x, y) {
   const grid = currentGrid();
   if (x < 0 || y < 0 || x >= grid || y >= grid) return true;
+  if (isGoalBlockedByStars(x, y)) return true;
+  if (isStarLevel()) return wallBlocksMove(x, y);
   return !isRoad(x, y);
 }
 
 function directionAtOffset(offset) {
-  const directions = [
-    { dx: 1, dy: 0, label: "direita" },
-    { dx: 0, dy: 1, label: "baixo" },
-    { dx: -1, dy: 0, label: "esquerda" },
-    { dx: 0, dy: -1, label: "cima" },
-  ];
-
-  const dir = (player.dir + offset + 4) % 4;
+  const angle = normalizeAngle((player.angle ?? player.dir * 90) + offset * 90);
+  const radians = angle * Math.PI / 180;
 
   return {
-    dir,
-    dx: directions[dir].dx,
-    dy: directions[dir].dy,
+    angle,
+    dx: Math.round(Math.cos(radians)),
+    dy: Math.round(Math.sin(radians)),
   };
 }
 
@@ -1532,7 +2222,7 @@ function countStudentLines(code) {
     .length;
 }
 
-function enqueueAction(type) {
+function enqueueAction(type, payload = {}) {
   if (actions.length >= MAX_ACTIONS) {
     throw new Error(
       `O programa executou mais de ${MAX_ACTIONS} ações e foi interrompido.\n\n` +
@@ -1541,7 +2231,7 @@ function enqueueAction(type) {
   }
 
   const lineNumber = getPythonLineNumber();
-  actions.push({ type, lineNumber });
+  actions.push({ type, lineNumber, ...payload });
 }
 
 function getPythonLineNumber() {
@@ -1560,17 +2250,35 @@ function andar() {
   if (!isBlocked(next.x, next.y)) {
     player.x = next.x;
     player.y = next.y;
+    collectStarAtPlayer();
   }
 }
 
 function virarDireita() {
   enqueueAction("turnRight");
   player.dir = (player.dir + 1) % 4;
+  player.angle = normalizeAngle(player.angle + 90);
 }
 
 function virarEsquerda() {
   enqueueAction("turnLeft");
   player.dir = (player.dir + 3) % 4;
+  player.angle = normalizeAngle(player.angle - 90);
+}
+
+function virarGraus(degrees) {
+  if (!isStarLevel()) {
+    throw new Error("virar(graus) está disponível a partir do Estágio B.");
+  }
+
+  const value = Number(degrees);
+  if (!Number.isFinite(value)) {
+    throw new Error("Use virar(graus) com um número, por exemplo: virar(90).");
+  }
+
+  enqueueAction("turnDegrees", { degrees: value });
+  player.angle = normalizeAngle(player.angle + value);
+  player.dir = Math.round(player.angle / 90) % 4;
 }
 
 function caminhoLivre() {
@@ -1594,15 +2302,23 @@ function applyVisualAction(action) {
     if (!isBlocked(next.x, next.y)) {
       player.x = next.x;
       player.y = next.y;
+      collectStarAtPlayer();
     }
   }
 
   if (action.type === "turnRight") {
     player.dir = (player.dir + 1) % 4;
+    player.angle = normalizeAngle(player.angle + 90);
   }
 
   if (action.type === "turnLeft") {
     player.dir = (player.dir + 3) % 4;
+    player.angle = normalizeAngle(player.angle - 90);
+  }
+
+  if (action.type === "turnDegrees") {
+    player.angle = normalizeAngle(player.angle + action.degrees);
+    player.dir = Math.round(player.angle / 90) % 4;
   }
 }
 
@@ -1613,23 +2329,22 @@ function draw(offsetX = 0, offsetY = 0) {
 
   drawBackground();
   drawRoad();
+  drawWalls();
+  drawStars();
   drawGoal();
   drawPlayer();
+  drawStarCounter();
 
   ctx.restore();
 }
 
-function drawBackground() {
-  const grid = currentGrid();
-  const tile = tileSize();
-  const detail = tile / 64;
-
+function drawEmptyStage() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.fillStyle = "#f2f0e9";
   ctx.fillRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
+}
 
-  ctx.strokeStyle = "#e4e0d8";
-  ctx.lineWidth = 2 * detail;
-
+function drawBackgroundDecorations(grid, tile, detail) {
   for (let y = 0; y < grid; y++) {
     for (let x = 0; x < grid; x++) {
       if (!isRoad(x, y)) {
@@ -1653,8 +2368,117 @@ function drawBackground() {
   }
 }
 
+function drawBackground() {
+  if (isStarLevel()) {
+    drawStarBackground();
+    return;
+  }
+
+  const grid = currentGrid();
+  const tile = tileSize();
+  const detail = tile / 64;
+
+  ctx.fillStyle = "#f2f0e9";
+  ctx.fillRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
+
+  ctx.strokeStyle = "#e4e0d8";
+  ctx.lineWidth = 2 * detail;
+  drawBackgroundDecorations(grid, tile, detail);
+}
+
+function drawStarBackground() {
+  const grid = currentGrid();
+  const tile = tileSize();
+  const detail = tile / 64;
+
+  ctx.fillStyle = "#f2f0e9";
+  ctx.fillRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
+
+  ctx.strokeStyle = "#e4e0d8";
+  ctx.lineWidth = 2 * detail;
+  drawBackgroundDecorations(grid, tile, detail);
+
+  ctx.strokeStyle = "#e4e0d8";
+  ctx.lineWidth = 2;
+  ctx.strokeRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
+
+  if (!currentLevel().showCoordinates) return;
+
+  ctx.save();
+  ctx.fillStyle = "#b7b5a8";
+  ctx.strokeStyle = "#cfcbbf";
+  ctx.lineWidth = 1.5;
+  ctx.font = "14px Arial, Helvetica, sans-serif";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+
+  for (let index = 1; index < grid; index += 1) {
+    const value = index * coordinateStep();
+    const x = index * tile;
+    const y = CANVAS_SIZE - index * tile;
+
+    ctx.beginPath();
+    ctx.moveTo(x, CANVAS_SIZE);
+    ctx.lineTo(x, CANVAS_SIZE - 9);
+    ctx.stroke();
+
+    ctx.fillText(String(value), x + 8, CANVAS_SIZE - 8);
+
+    ctx.beginPath();
+    ctx.moveTo(0, y);
+    ctx.lineTo(9, y);
+    ctx.stroke();
+
+    ctx.textAlign = "left";
+    ctx.fillText(String(value), 4, y - 6);
+    ctx.textAlign = "center";
+  }
+
+  ctx.fillStyle = "#8d8b80";
+  ctx.font = "bold 15px Arial, Helvetica, sans-serif";
+  ctx.textAlign = "right";
+  ctx.fillText("x", CANVAS_SIZE - 8, CANVAS_SIZE - 28);
+  ctx.textAlign = "left";
+  ctx.fillText("y", 14, 14);
+
+  ctx.restore();
+}
+
+function drawWalls() {
+  if (!isStarLevel()) return;
+
+  const tile = tileSize();
+
+  ctx.save();
+  ctx.strokeStyle = "#c3c4b8";
+  ctx.lineWidth = 10;
+  ctx.lineCap = "round";
+
+  levelWalls().forEach((wall) => {
+    ctx.beginPath();
+
+    if (wall.orientation === "horizontal") {
+      const y = wall.y * tile;
+      ctx.moveTo(wall.x1 * tile, y);
+      ctx.lineTo((wall.x2 + 1) * tile, y);
+    }
+
+    if (wall.orientation === "vertical") {
+      const x = wall.x * tile;
+      ctx.moveTo(x, wall.y1 * tile);
+      ctx.lineTo(x, (wall.y2 + 1) * tile);
+    }
+
+    ctx.stroke();
+  });
+
+  ctx.restore();
+}
+
 function drawRoad() {
   const path = currentLevel().path;
+  if (isStarLevel() || !path?.length) return;
+
   const tile = tileSize();
   const detail = tile / 64;
 
@@ -1698,6 +2522,81 @@ function drawRoad() {
   ctx.setLineDash([]);
 }
 
+function drawStars() {
+  if (!isStarLevel()) return;
+
+  const tile = tileSize();
+  const detail = tile / 64;
+
+  levelStars().forEach(([x, y]) => {
+    if (collectedStars.has(starKey(x, y))) return;
+
+    const cx = x * tile + tile / 2;
+    const cy = y * tile + tile / 2;
+    drawStarShape(cx, cy, detail, "#1e88e5", "#0d47a1");
+  });
+
+  levelPurpleStars().forEach(([x, y]) => {
+    if (collectedPurpleStars.has(starKey(x, y))) return;
+
+    const cx = x * tile + tile / 2;
+    const cy = y * tile + tile / 2;
+    drawStarShape(cx, cy, detail, "#8e24aa", "#4a148c");
+  });
+}
+
+function drawStarShape(cx, cy, detail, fill, stroke) {
+  const outer = 15 * detail;
+  const inner = 6 * detail;
+
+  ctx.save();
+  ctx.fillStyle = fill;
+  ctx.strokeStyle = stroke;
+  ctx.lineWidth = 2 * detail;
+  ctx.beginPath();
+
+  for (let point = 0; point < 10; point += 1) {
+    const radius = point % 2 === 0 ? outer : inner;
+    const angle = -Math.PI / 2 + point * Math.PI / 5;
+    const px = cx + Math.cos(angle) * radius;
+    const py = cy + Math.sin(angle) * radius;
+
+    if (point === 0) {
+      ctx.moveTo(px, py);
+    } else {
+      ctx.lineTo(px, py);
+    }
+  }
+
+  ctx.closePath();
+  ctx.fill();
+  ctx.stroke();
+  ctx.restore();
+}
+
+function drawStarCounter() {
+  if (!isStarLevel()) return;
+
+  const total = levelStars().length;
+  const collected = starScore();
+  const width = 94;
+  const height = 34;
+  const x = Math.round((CANVAS_SIZE - width) / 2);
+  const y = 12;
+
+  ctx.save();
+  ctx.fillStyle = "#1e88e5";
+  ctx.font = "bold 18px Arial, Helvetica, sans-serif";
+  ctx.textAlign = "left";
+  ctx.textBaseline = "middle";
+  ctx.fillText("★", x + 14, y + height / 2);
+
+  ctx.fillStyle = "#333";
+  ctx.font = "bold 15px Arial, Helvetica, sans-serif";
+  ctx.fillText(`${collected}/${total}`, x + 42, y + height / 2);
+  ctx.restore();
+}
+
 function drawGoal() {
   const goal = currentLevel().goal;
   const tile = tileSize();
@@ -1705,6 +2604,7 @@ function drawGoal() {
   const x = goal.x * tile + tile / 2;
   const y = goal.y * tile + tile / 2;
 
+  ctx.save();
   ctx.fillStyle = "#ff6f61";
   ctx.strokeStyle = "#111";
   ctx.lineWidth = 2 * detail;
@@ -1721,6 +2621,7 @@ function drawGoal() {
   ctx.closePath();
   ctx.fill();
   ctx.stroke();
+  ctx.restore();
 }
 
 function drawPlayer() {
@@ -1731,7 +2632,7 @@ function drawPlayer() {
 
   ctx.save();
   ctx.translate(x, y);
-  ctx.rotate((Math.PI / 2) * player.dir);
+  ctx.rotate(((player.angle ?? player.dir * 90) * Math.PI) / 180);
   ctx.scale(detail, detail);
 
   ctx.fillStyle = "rgba(0,0,0,0.22)";
@@ -1890,13 +2791,56 @@ function startErrorEffect() {
   errorAnimationId = requestAnimationFrame(animate);
 }
 
+function stageStatus(stage) {
+  if (stage.levelIndexes.length === 0) return null;
+
+  const states = stage.levelIndexes.map((index) => progress[levelKey(index)]?.status);
+
+  if (states.includes("error")) return "error";
+  if (states.every((state) => state === "success")) return "success";
+  if (states.every((state) => state === "success" || state === "warning") && states.includes("warning")) {
+    return "warning";
+  }
+
+  return null;
+}
+
+function updateStageCarousel() {
+  stageCarousel.innerHTML = "";
+
+  STAGES.forEach((stage, index) => {
+    const button = document.createElement("button");
+    button.className = "stage-button";
+    button.textContent = stage.label;
+    button.title = stage.levelIndexes.length > 0 ? `Estágio ${stage.label}` : `Estágio ${stage.label} em breve`;
+
+    const state = stageStatus(stage);
+    if (state === "success") button.classList.add("success");
+    if (state === "error") button.classList.add("error");
+    if (state === "warning") button.classList.add("warning");
+    if (index === selectedStageIndex) button.classList.add("active");
+
+    button.addEventListener("click", () => {
+      if (stage.levelIndexes.length > 0) {
+        loadLevel(stage.levelIndexes[0]);
+      } else {
+        loadStage(index);
+      }
+    });
+
+    stageCarousel.appendChild(button);
+  });
+}
+
 function updateCarousel() {
+  updateStageCarousel();
   levelCarousel.innerHTML = "";
 
-  LEVELS.forEach((level, index) => {
+  currentStage().levelIndexes.forEach((index, position) => {
+    const level = LEVELS[index];
     const button = document.createElement("button");
     button.className = "level-button";
-    button.textContent = index === currentLevelIndex || progress[levelKey(index)]?.status ? String(index + 1) : "";
+    button.textContent = index === currentLevelIndex || progress[levelKey(index)]?.status ? String(position + 1) : "";
     button.title = level.title;
 
     const state = progress[levelKey(index)]?.status;
@@ -1911,15 +2855,51 @@ function updateCarousel() {
 }
 
 function updateLevelHeader() {
+  const stage = currentStage();
+  if (stage.levelIndexes.length === 0) {
+    levelTitle.textContent = `Estágio ${stage.label}`;
+    lineGoal.textContent = "Aguardando fases";
+    prevButton.disabled = previousNavigationTarget() === null;
+    nextButton.disabled = nextNavigationTarget() === null;
+    return;
+  }
+
   const level = currentLevel();
   levelTitle.textContent = level.title;
   lineGoal.textContent = `Meta: até ${level.lineGoal} linhas`;
-  prevButton.disabled = currentLevelIndex === 0;
-  nextButton.disabled = currentLevelIndex === LEVELS.length - 1;
+  prevButton.disabled = previousNavigationTarget() === null;
+  nextButton.disabled = nextNavigationTarget() === null;
+}
+
+async function loadStage(index) {
+  stopAnimation("success");
+  stopAnimation("error");
+  stopAnimation("warning");
+  selectedStageIndex = index;
+  debugActions = [];
+  debugIndex = 0;
+  actions = [];
+  clearHighlightedLine();
+  clearErrorHighlight();
+
+  runButton.disabled = true;
+  stepButton.disabled = true;
+  resetStageButton.disabled = true;
+  if (editor) {
+    editor.updateOptions({ readOnly: true });
+  }
+
+  updateLevelHeader();
+  updateCarousel();
+  drawEmptyStage();
+  setDebugInfo("Este estágio ainda não possui fases.");
+  setStatus(`Estágio ${currentStage().label} selecionado.`);
+  await saveProgress();
 }
 
 async function loadLevel(index) {
   stopAllEffects();
+  selectedStageIndex = stageForLevel(index);
   currentLevelIndex = index;
   debugActions = [];
   debugIndex = 0;
@@ -1929,8 +2909,15 @@ async function loadLevel(index) {
   resetPlayerToLevel();
 
   if (editor) {
+    editor.updateOptions({ readOnly: false });
     const saved = progress[levelKey()]?.code;
     editor.setValue(saved || currentLevel().starterCode);
+  }
+
+  resetStageButton.disabled = false;
+  if (pyodide) {
+    runButton.disabled = false;
+    stepButton.disabled = false;
   }
 
   updateLevelHeader();
@@ -1986,20 +2973,23 @@ async function resetCurrentStage() {
   setStatus("Esta fase voltou ao estado branco/não executado.");
 }
 
-async function clearAllProgress() {
+async function clearStageProgress() {
+  const stage = currentStage();
   const shouldClear = window.confirm(
-    "Você tem certeza que deseja limpar todo o progresso e começar de novo?"
+    `Você tem certeza que deseja limpar o progresso do Estágio ${stage.label}?`
   );
   if (!shouldClear) {
     setStatus("Limpeza de progresso cancelada.");
     return;
   }
 
-  progress = {};
-  await dbDelete("progress");
-  await dbDelete("currentLevelIndex");
-  await loadLevel(0);
-  setStatus("Todo o progresso local foi apagado.");
+  stage.levelIndexes.forEach((index) => {
+    delete progress[levelKey(index)];
+  });
+
+  await saveProgress();
+  await loadLevel(stage.levelIndexes[0] ?? currentLevelIndex);
+  setStatus(`O progresso do Estágio ${stage.label} foi apagado.`);
 }
 
 async function collectActionsFromPython() {
@@ -2036,7 +3026,7 @@ finally:
 async function evaluateResult() {
   const lineCount = countStudentLines(editor.getValue());
 
-  if (isGoal()) {
+  if (isGoal() && allStarsCollected() && hasFullStarScore()) {
     if (currentLevel().isTutorial || lineCount <= currentLevel().lineGoal) {
       await setStageResult("success", lineCount);
       setStatus(currentLevel().isTutorial
@@ -2051,9 +3041,17 @@ async function evaluateResult() {
       );
       startWarningEffect();
     }
+  } else if (isStarLevel() && isGoal()) {
+    await setStageResult("error", lineCount);
+    setStatus(allStarsCollected()
+      ? "Você chegou ao destino, mas pegou estrela roxa e perdeu ponto. Evite as roxas."
+      : "Você chegou ao destino, mas ainda faltam estrelas azuis pelo caminho.");
+    startErrorEffect();
   } else {
     await setStageResult("error", lineCount);
-    setStatus("Ainda não foi dessa vez. Revise o caminho e tente novamente.");
+    setStatus(isStarLevel()
+      ? "Ainda não foi dessa vez. Pegue todas as estrelas azuis e depois vá ao destino."
+      : "Ainda não foi dessa vez. Revise o caminho e tente novamente.");
     startErrorEffect();
   }
 }
@@ -2183,14 +3181,16 @@ async function initPyodide() {
   });
 
   pyodide.globals.set("andar", andar);
+  pyodide.globals.set("virar", virarGraus);
   pyodide.globals.set("virar_direita", virarDireita);
   pyodide.globals.set("virar_esquerda", virarEsquerda);
   pyodide.globals.set("caminho_livre", caminhoLivre);
   pyodide.globals.set("caminho_livre_esquerda", caminhoLivreEsquerda);
   pyodide.globals.set("caminho_livre_direita", caminhoLivreDireita);
 
-  runButton.disabled = false;
-  stepButton.disabled = false;
+  const stage = currentStage();
+  runButton.disabled = stage.levelIndexes.length === 0;
+  stepButton.disabled = stage.levelIndexes.length === 0;
 
   setStatus("Pronto. Escreva seu código Python e clique em Executar tudo ou Próxima linha.");
 }
@@ -2234,12 +3234,12 @@ async function init() {
 runButton.addEventListener("click", runCode);
 stepButton.addEventListener("click", stepDebug);
 resetStageButton.addEventListener("click", resetCurrentStage);
-clearProgressButton.addEventListener("click", clearAllProgress);
+clearProgressButton.addEventListener("click", clearStageProgress);
 prevButton.addEventListener("click", () => {
-  if (currentLevelIndex > 0) loadLevel(currentLevelIndex - 1);
+  navigateToTarget(previousNavigationTarget());
 });
 nextButton.addEventListener("click", () => {
-  if (currentLevelIndex < LEVELS.length - 1) loadLevel(currentLevelIndex + 1);
+  navigateToTarget(nextNavigationTarget());
 });
 
 closeErrorModal.addEventListener("click", closeErrorModalBox);

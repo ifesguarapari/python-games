@@ -11,8 +11,11 @@
 <body>
   <header>
     <div class="title-row">
-      <h1><span>Python Games</h1>
-      <div id="levelCarousel" class="level-carousel" aria-label="Indicador de fases"></div>
+      <h1><span>Python Games</span></h1>
+      <div class="progress-nav">
+        <div id="stageCarousel" class="stage-carousel" aria-label="Indicador de estágios"></div>
+        <div id="levelCarousel" class="level-carousel" aria-label="Indicador de fases"></div>
+      </div>
     </div>
     <p>Um ambiente interativo sobre aprendizagem de Python, com desafios gamificados progressivos para introdução à
       programação e ao pensamento computacional.</p>
@@ -53,11 +56,15 @@
       <h2>Comandos</h2>
       <div class="commands">
         <p><code>andar()</code>: anda uma casa para frente.</p>
+        <p><code>virar(graus)</code>: gira o personagem usando um valor, como <code>virar(90)</code>.</p>
         <p><code>virar_direita()</code>: gira o personagem para a direita.</p>
         <p><code>virar_esquerda()</code>: gira o personagem para a esquerda.</p>
         <p><code>caminho_livre()</code>: retorna <code>True</code> se não houver parede à frente.</p>
         <p><code>caminho_livre_esquerda()</code>: retorna <code>True</code> se a esquerda estiver livre.</p>
         <p><code>caminho_livre_direita()</code>: retorna <code>True</code> se a direita estiver livre.</p>
+        <p><code>x</code> e <code>y</code>: mostram a posição atual no mapa.</p>
+        <p><code>estrelas</code>: mostra a pontuação; azul soma 1, roxa tira 1.</p>
+        <p><code>total_estrelas</code>: mostra o total de estrelas azuis da fase.</p>
       </div>
 
       <div class="legend">
