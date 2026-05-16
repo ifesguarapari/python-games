@@ -8,9 +8,8 @@ self.MonacoEnvironment = {
   },
 };
 
-const TILE = 64;
-const GRID = 7;
-const CANVAS_SIZE = TILE * GRID;
+const DEFAULT_GRID = 7;
+const CANVAS_SIZE = 448;
 const MAX_ACTIONS = 500;
 const DB_NAME = "python-game-progress";
 const STORE_NAME = "stage-progress";
@@ -54,14 +53,14 @@ const LEVELS = [
   },
   {
     "title": "Desafio 2: comandos em sequência",
-    "lineGoal": 2,
+    "lineGoal": 3,
     "start": {
       "x": 2,
       "y": 3,
       "dir": 0
     },
     "goal": {
-      "x": 4,
+      "x": 5,
       "y": 3
     },
     "path": [
@@ -76,9 +75,13 @@ const LEVELS = [
       [
         4,
         3
+      ],
+      [
+        5,
+        3
       ]
     ],
-    "starterCode": "# Desafio 2\n# Leve o personagem até o objetivo usando sequência.\n\n",
+    "starterCode": "# Desafio 2\n# Leve o personagem até o objetivo usando sequência.\n# Use andar() três vezes.\n\n",
     "isTutorial": false,
     "concept": null
   },
@@ -235,15 +238,15 @@ const LEVELS = [
     "concept": null
   },
   {
-    "title": "Aprenda 7: bloco indentado",
-    "lineGoal": 99,
+    "title": "Aprenda 7: controles alinhados",
+    "lineGoal": 4,
     "start": {
       "x": 1,
       "y": 5,
       "dir": 0
     },
     "goal": {
-      "x": 2,
+      "x": 3,
       "y": 4
     },
     "path": [
@@ -256,18 +259,22 @@ const LEVELS = [
         5
       ],
       [
-        2,
+        3,
+        5
+      ],
+      [
+        3,
         4
       ]
     ],
-    "starterCode": "# Exemplo resolvido.\n# A linha dentro do if fica recuada.\n\nif caminho_livre():\n    andar()\nvirar_esquerda()\nandar()",
+    "starterCode": "# Exemplo resolvido.\n# Use while com um if dentro do while para chegar ao objetivo.\n\nwhile caminho_livre():\n    andar()\n    if not caminho_livre():\n        virar_esquerda()",
     "isTutorial": true,
     "concept": {
-      "title": "Algumas linhas trabalham em grupo",
-      "objective": "Você vai observar comandos que ficam dentro de um bloco.",
-      "programming": "Um bloco é um grupo de linhas que pertence à mesma ideia, como uma repetição ou decisão.",
-      "python": "Depois de if ou while, use indentação: Tab ou quatro espaços nas linhas de dentro.",
-      "thinking": "Se algo der erro, confira primeiro se as linhas estão bem alinhadas."
+      "title": "Controles alinhados",
+      "objective": "Você vai aprender a colocar um if dentro de um while.",
+      "programming": "O if pertence ao while e só executa quando o caminho à frente estiver bloqueado.",
+      "python": "Depois de while, use indentação para o corpo do laço e para o if dentro dele.",
+      "thinking": "Use o while para repetir ações e o if para mudar de direção quando necessário."
     }
   },
   {
@@ -753,39 +760,67 @@ const LEVELS = [
     "concept": null
   },
   {
-    "title": "Aprenda 17: olhando para os lados",
-    "lineGoal": 99,
+    "title": "Aprenda 17: controles alinhados",
+    "lineGoal": 20,
     "start": {
-      "x": 2,
-      "y": 5,
+      "x": 1,
+      "y": 6,
       "dir": 3
     },
     "goal": {
-      "x": 1,
-      "y": 4
+      "x": 6,
+      "y": 2
     },
     "path": [
       [
-        2,
-        5
+        1,
+        6
       ],
       [
-        2,
-        4
+        1,
+        5
       ],
       [
         1,
         4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        2
       ]
     ],
-    "starterCode": "# Exemplo resolvido.\n# Teste se há caminho à esquerda.\n\nandar()\nif caminho_livre_esquerda():\n    virar_esquerda()\n    andar()",
+    "starterCode": "# Exemplo resolvido.\n# Resolva em partes usando while com if alinhado.\n\nwhile caminho_livre():\n    andar()\n    if caminho_livre_direita():\n        break\nif caminho_livre_direita():\n    virar_direita()\n\nwhile caminho_livre():\n    andar()\n    if caminho_livre_esquerda():\n        break\nif caminho_livre_esquerda():\n    virar_esquerda()\n\nwhile caminho_livre():\n    andar()\n    if caminho_livre_direita():\n        break\nif caminho_livre_direita():\n    virar_direita()\n\nwhile caminho_livre():\n    andar()",
     "isTutorial": true,
     "concept": {
-      "title": "O programa pode observar o caminho",
-      "objective": "Você vai usar testes como caminho_livre_esquerda() e caminho_livre_direita().",
-      "programming": "Esses testes ajudam o personagem a perceber o ambiente antes de agir.",
-      "python": "Essas funções retornam True ou False e combinam bem com if e while.",
-      "thinking": "Antes de mandar andar, pergunte se existe caminho."
+      "title": "Resolução por partes",
+      "objective": "Você vai combinar if e while para seguir o caminho em etapas.",
+      "programming": "Use while para repetir ações e use if dentro do laço para decidir quando mudar de direção.",
+      "python": "Controle alinhado significa que o if está dentro do while quando faz parte do mesmo bloco.",
+      "thinking": "Divida o problema em partes: avance até a curva, vire, e continue."
     }
   },
   {
@@ -896,54 +931,14 @@ const LEVELS = [
   },
   {
     "title": "Aprenda 19: juntando estratégias",
-    "lineGoal": 99,
+    "lineGoal": 18,
     "start": {
       "x": 1,
       "y": 5,
       "dir": 0
     },
     "goal": {
-      "x": 3,
-      "y": 4
-    },
-    "path": [
-      [
-        1,
-        5
-      ],
-      [
-        2,
-        5
-      ],
-      [
-        3,
-        5
-      ],
-      [
-        3,
-        4
-      ]
-    ],
-    "starterCode": "# Exemplo resolvido.\n# Use repetição, virada e teste.\n\nwhile caminho_livre():\n    andar()\nvirar_esquerda()\nif caminho_livre():\n    andar()",
-    "isTutorial": true,
-    "concept": {
-      "title": "Junte tudo o que você aprendeu",
-      "objective": "Você vai combinar comandos, repetição e decisão em um desafio maior.",
-      "programming": "Problemas grandes ficam mais fáceis quando quebrados em partes menores.",
-      "python": "Teste aos poucos. Se uma linha ficar vermelha, leia a dica e corrija com calma.",
-      "thinking": "Não precisa acertar de primeira: programar é ajustar passo a passo."
-    }
-  },
-  {
-    "title": "Desafio 20: desafio final",
-    "lineGoal": 12,
-    "start": {
-      "x": 1,
-      "y": 5,
-      "dir": 0
-    },
-    "goal": {
-      "x": 3,
+      "x": 4,
       "y": 1
     },
     "path": [
@@ -960,64 +955,16 @@ const LEVELS = [
         5
       ],
       [
-        3,
-        4
-      ],
-      [
-        2,
-        4
-      ],
-      [
-        1,
-        4
-      ],
-      [
-        1,
-        3
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        2,
-        2
-      ],
-      [
-        1,
-        2
-      ],
-      [
-        1,
-        1
-      ],
-      [
-        2,
-        1
-      ],
-      [
-        3,
-        1
-      ],
-      [
-        3,
-        2
-      ],
-      [
         4,
-        2
+        5
       ],
       [
         5,
-        2
+        5
       ],
       [
         5,
-        1
-      ],
-      [
-        5,
-        2
+        4
       ],
       [
         5,
@@ -1032,15 +979,204 @@ const LEVELS = [
         3
       ],
       [
-        3,
+        2,
+        3
+      ],
+      [
+        2,
         2
       ],
       [
+        2,
+        1
+      ],
+      [
         3,
+        1
+      ],
+      [
+        4,
         1
       ]
     ],
-    "starterCode": "# Desafio 20\n# Use tudo o que aprendeu.\n\n",
+    "starterCode": "# Exemplo resolvido.\n# Use controles alinhados e resolva em partes.\n\nwhile caminho_livre():\n    andar()\nif caminho_livre_esquerda():\n    virar_esquerda()\nwhile caminho_livre():\n    andar()\nif caminho_livre_esquerda():\n    virar_esquerda()\nwhile caminho_livre():\n    andar()\nif caminho_livre_direita():\n    virar_direita()\nwhile caminho_livre():\n    andar()\nif caminho_livre_direita():\n    virar_direita()\nwhile caminho_livre():\n    andar()",
+    "isTutorial": true,
+    "concept": {
+      "title": "Junte tudo o que você aprendeu",
+      "objective": "Você vai combinar if e while para resolver etapas de um caminho maior.",
+      "programming": "Use repetições para avançar e decisões para mudar de direção quando o caminho muda.",
+      "python": "O if pode ficar alinhado dentro do while quando faz parte do mesmo bloco.",
+      "thinking": "Divida o caminho em pedaços: avance, vire e continue."
+    }
+  },
+  {
+    "title": "Desafio 20: desafio final",
+    "lineGoal": 14,
+    "grid": 8,
+    "start": {
+      "x": 1,
+      "y": 6,
+      "dir": 0
+    },
+    "goal": {
+      "x": 4,
+      "y": 1
+    },
+    "path": [
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        6
+      ]
+    ],
+    "starterCode": "# Você consegue resolver este labirinto complicado? Tente seguir a parede da mão esquerda.\n\n",
     "isTutorial": false,
     "concept": null
   }
@@ -1088,6 +1224,14 @@ stepButton.disabled = true;
 
 function currentLevel() {
   return LEVELS[currentLevelIndex];
+}
+
+function currentGrid() {
+  return currentLevel().grid || DEFAULT_GRID;
+}
+
+function tileSize() {
+  return CANVAS_SIZE / currentGrid();
 }
 
 function levelKey(index = currentLevelIndex) {
@@ -1177,7 +1321,8 @@ function isGoal() {
 }
 
 function isBlocked(x, y) {
-  if (x < 0 || y < 0 || x >= GRID || y >= GRID) return true;
+  const grid = currentGrid();
+  if (x < 0 || y < 0 || x >= grid || y >= grid) return true;
   return !isRoad(x, y);
 }
 
@@ -1475,27 +1620,31 @@ function draw(offsetX = 0, offsetY = 0) {
 }
 
 function drawBackground() {
+  const grid = currentGrid();
+  const tile = tileSize();
+  const detail = tile / 64;
+
   ctx.fillStyle = "#f2f0e9";
   ctx.fillRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
 
   ctx.strokeStyle = "#e4e0d8";
-  ctx.lineWidth = 2;
+  ctx.lineWidth = 2 * detail;
 
-  for (let y = 0; y < GRID; y++) {
-    for (let x = 0; x < GRID; x++) {
+  for (let y = 0; y < grid; y++) {
+    for (let x = 0; x < grid; x++) {
       if (!isRoad(x, y)) {
-        const px = x * TILE + 13;
-        const py = y * TILE + 13;
+        const px = x * tile + 13 * detail;
+        const py = y * tile + 13 * detail;
         ctx.globalAlpha = 0.55;
         ctx.beginPath();
         ctx.moveTo(px, py);
-        ctx.lineTo(px + 28, py);
-        ctx.lineTo(px + 28, py + 12);
-        ctx.lineTo(px + 42, py + 12);
-        ctx.lineTo(px + 42, py + 36);
-        ctx.lineTo(px + 12, py + 36);
-        ctx.lineTo(px + 12, py + 22);
-        ctx.lineTo(px, py + 22);
+        ctx.lineTo(px + 28 * detail, py);
+        ctx.lineTo(px + 28 * detail, py + 12 * detail);
+        ctx.lineTo(px + 42 * detail, py + 12 * detail);
+        ctx.lineTo(px + 42 * detail, py + 36 * detail);
+        ctx.lineTo(px + 12 * detail, py + 36 * detail);
+        ctx.lineTo(px + 12 * detail, py + 22 * detail);
+        ctx.lineTo(px, py + 22 * detail);
         ctx.closePath();
         ctx.stroke();
         ctx.globalAlpha = 1;
@@ -1506,17 +1655,19 @@ function drawBackground() {
 
 function drawRoad() {
   const path = currentLevel().path;
+  const tile = tileSize();
+  const detail = tile / 64;
 
   ctx.strokeStyle = "#fff500";
-  ctx.lineWidth = 18;
+  ctx.lineWidth = 18 * detail;
   ctx.lineCap = "round";
   ctx.lineJoin = "round";
 
   ctx.beginPath();
 
   path.forEach(([x, y], index) => {
-    const cx = x * TILE + TILE / 2;
-    const cy = y * TILE + TILE / 2;
+    const cx = x * tile + tile / 2;
+    const cy = y * tile + tile / 2;
 
     if (index === 0) {
       ctx.moveTo(cx, cy);
@@ -1528,13 +1679,13 @@ function drawRoad() {
   ctx.stroke();
 
   ctx.strokeStyle = "rgba(255,255,255,0.55)";
-  ctx.lineWidth = 2;
-  ctx.setLineDash([12, 22]);
+  ctx.lineWidth = 2 * detail;
+  ctx.setLineDash([12 * detail, 22 * detail]);
   ctx.beginPath();
 
   path.forEach(([x, y], index) => {
-    const cx = x * TILE + TILE / 2;
-    const cy = y * TILE + TILE / 2;
+    const cx = x * tile + tile / 2;
+    const cy = y * tile + tile / 2;
 
     if (index === 0) {
       ctx.moveTo(cx, cy);
@@ -1549,34 +1700,39 @@ function drawRoad() {
 
 function drawGoal() {
   const goal = currentLevel().goal;
-  const x = goal.x * TILE + TILE / 2;
-  const y = goal.y * TILE + TILE / 2;
+  const tile = tileSize();
+  const detail = tile / 64;
+  const x = goal.x * tile + tile / 2;
+  const y = goal.y * tile + tile / 2;
 
   ctx.fillStyle = "#ff6f61";
   ctx.strokeStyle = "#111";
-  ctx.lineWidth = 2;
+  ctx.lineWidth = 2 * detail;
 
   ctx.beginPath();
-  ctx.arc(x, y - 12, 9, 0, Math.PI * 2);
+  ctx.arc(x, y - 12 * detail, 9 * detail, 0, Math.PI * 2);
   ctx.fill();
   ctx.stroke();
 
   ctx.beginPath();
-  ctx.moveTo(x, y + 18);
-  ctx.lineTo(x - 8, y - 4);
-  ctx.lineTo(x + 8, y - 4);
+  ctx.moveTo(x, y + 18 * detail);
+  ctx.lineTo(x - 8 * detail, y - 4 * detail);
+  ctx.lineTo(x + 8 * detail, y - 4 * detail);
   ctx.closePath();
   ctx.fill();
   ctx.stroke();
 }
 
 function drawPlayer() {
-  const x = player.x * TILE + TILE / 2;
-  const y = player.y * TILE + TILE / 2;
+  const tile = tileSize();
+  const detail = tile / 64;
+  const x = player.x * tile + tile / 2;
+  const y = player.y * tile + tile / 2;
 
   ctx.save();
   ctx.translate(x, y);
   ctx.rotate((Math.PI / 2) * player.dir);
+  ctx.scale(detail, detail);
 
   ctx.fillStyle = "rgba(0,0,0,0.22)";
   ctx.beginPath();
@@ -1636,8 +1792,9 @@ function startSuccessEffect() {
     draw();
 
     const goal = currentLevel().goal;
-    const x = goal.x * TILE + TILE / 2;
-    const y = goal.y * TILE + TILE / 2;
+    const tile = tileSize();
+    const x = goal.x * tile + tile / 2;
+    const y = goal.y * tile + tile / 2;
 
     ctx.save();
     ctx.strokeStyle = `rgba(67, 160, 71, ${1 - progressValue})`;
@@ -1830,6 +1987,14 @@ async function resetCurrentStage() {
 }
 
 async function clearAllProgress() {
+  const shouldClear = window.confirm(
+    "Você tem certeza que deseja limpar todo o progresso e começar de novo?"
+  );
+  if (!shouldClear) {
+    setStatus("Limpeza de progresso cancelada.");
+    return;
+  }
+
   progress = {};
   await dbDelete("progress");
   await dbDelete("currentLevelIndex");
