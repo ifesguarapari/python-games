@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python Games</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="title-row">
+      <h1><span>Python Games</h1>
+      <div id="levelCarousel" class="level-carousel" aria-label="Indicador de fases"></div>
+    </div>
+    <p>Um ambiente interativo sobre aprendizagem de Python, com desafios gamificados progressivos para introdução à
+      programação e ao pensamento computacional.</p>
+  </header>
+
+  <main>
+    <section class="panel editor-panel">
+      <div class="panel-title">
+        <h2 id="levelTitle">Fase 1</h2>
+        <div id="lineGoal" class="line-goal">Meta: até 10 linhas</div>
+      </div>
+
+      <div id="editor"></div>
+
+      <div class="button-row">
+        <button id="runButton">▶ Executar tudo</button>
+        <button id="stepButton" class="warning">Próxima linha</button>
+        <button id="resetStageButton" class="secondary">Reiniciar fase</button>
+        <button id="clearProgressButton" class="danger">Limpar progresso</button>
+      </div>
+
+      <div id="debugInfo" class="debug-info">
+        Clique em “Executar tudo” ou em “Próxima linha” para iniciar.
+      </div>
+
+      <div id="status" class="status">Carregando editor e Pyodide...</div>
+    </section>
+
+    <aside class="panel game-panel">
+      <h2>Labirinto</h2>
+      <canvas id="game" width="448" height="448"></canvas>
+
+      <div class="navigation-row">
+        <button id="prevButton" class="secondary">← Voltar</button>
+        <button id="nextButton" class="secondary">Avançar →</button>
+      </div>
+
+      <h2>Comandos</h2>
+      <div class="commands">
+        <p><code>andar()</code>: anda uma casa para frente.</p>
+        <p><code>virar_direita()</code>: gira o personagem para a direita.</p>
+        <p><code>virar_esquerda()</code>: gira o personagem para a esquerda.</p>
+        <p><code>caminho_livre()</code>: retorna <code>True</code> se não houver parede à frente.</p>
+        <p><code>caminho_livre_esquerda()</code>: retorna <code>True</code> se a esquerda estiver livre.</p>
+        <p><code>caminho_livre_direita()</code>: retorna <code>True</code> se a direita estiver livre.</p>
+      </div>
+
+      <div class="legend">
+        <span><i class="dot white"></i> não executada</span>
+        <span><i class="dot green"></i> correta</span>
+        <span><i class="dot red"></i> incorreta</span>
+        <span><i class="dot yellow"></i> correta, mas acima da meta</span>
+      </div>
+    </aside>
+  </main>
+
+  <div id="conceptModal" class="modal-overlay hidden" role="dialog" aria-modal="true"
+    aria-labelledby="conceptModalTitle">
+    <div class="concept-modal">
+      <div class="concept-icon">💡</div>
+      <h2 id="conceptModalTitle">Antes de começar</h2>
+      <div id="conceptModalBody" class="concept-body"></div>
+      <button id="closeConceptModal" class="modal-button">Vamos nessa</button>
+    </div>
+  </div>
+
+  <div id="errorModal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="errorModalTitle">
+    <div class="error-modal">
+      <div class="error-icon">✕</div>
+      <h2 id="errorModalTitle">Atenção</h2>
+      <p id="errorModalMessage">
+        Boa tentativa! Tem algo para ajustar no seu código. Marquei a linha em vermelho para você revisar. Tente
+        corrigir sozinho; se travar, chame um colega ou o professor.
+      </p>
+      <button id="closeErrorModal" class="modal-button">Entendi</button>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
