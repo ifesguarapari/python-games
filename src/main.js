@@ -17,7 +17,7 @@ const STORE_NAME = "stage-progress";
 const LEVELS = [
   {
     "title": "Aprenda: comandos em sequência",
-    "lineGoal": 99,
+    "lineGoal": 2,
     "start": {
       "x": 1,
       "y": 3,
@@ -87,7 +87,7 @@ const LEVELS = [
   },
   {
     "title": "Aprenda: virando no caminho",
-    "lineGoal": 99,
+    "lineGoal": 3,
     "start": {
       "x": 1,
       "y": 4,
@@ -161,7 +161,7 @@ const LEVELS = [
   },
   {
     "title": "Aprenda: repetindo com while",
-    "lineGoal": 99,
+    "lineGoal": 2,
     "start": {
       "x": 1,
       "y": 3,
@@ -325,7 +325,7 @@ const LEVELS = [
   },
   {
     "title": "Aprenda: planejando por partes",
-    "lineGoal": 99,
+    "lineGoal": 5,
     "start": {
       "x": 1,
       "y": 5,
@@ -415,7 +415,7 @@ const LEVELS = [
   },
   {
     "title": "Aprenda: contornando obstáculos",
-    "lineGoal": 99,
+    "lineGoal": 5,
     "start": {
       "x": 1,
       "y": 5,
@@ -529,7 +529,7 @@ const LEVELS = [
   },
   {
     "title": "Aprenda: escolhendo com if",
-    "lineGoal": 99,
+    "lineGoal": 5,
     "start": {
       "x": 1,
       "y": 4,
@@ -651,7 +651,7 @@ const LEVELS = [
   },
   {
     "title": "Aprenda: melhorando a solução",
-    "lineGoal": 99,
+    "lineGoal": 2,
     "start": {
       "x": 1,
       "y": 5,
